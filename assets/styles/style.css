@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Gilroy-Regular', sans-serif;
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium', sans-serif;
+    src: url(../fonts/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold', sans-serif;
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+html{
+    font-family: 'Gilroy', sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 60px;
+}
+
+.menu-item{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+.menu-item:hover{
+    color: #F25822;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+}
+
+.title{
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 45px;
+}
+
+.intro-txt{
+    color: #888;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal; 
+    margin-left: 45px;
+    padding-top: 17px;
+}
+
+.intro-links{
+    width: 374px;
+    margin-top: 16px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.start-btn{
+    width: 140px;
+    height: 50px; 
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20); 
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.video-link{
+    color: #AAA;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.intro-img{
+    width: 610.735px;
+    height: 372.904px;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo-img{
+    padding-top: 260px;
+    width: 160px;
+    height: 50px; 
+}
