@@ -30,7 +30,7 @@ body{
     margin: 0;
 }
 
-h1, p{
+h1, h4, p{
     margin: 0;
 }
 
@@ -38,10 +38,13 @@ a{
     text-decoration: none;
 }
 
-.header{
+.container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header{
     height: 114px;
     display: flex;
     justify-content: space-between;
@@ -66,9 +69,6 @@ a{
 }
 
 .intro{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 97px;
@@ -137,4 +137,56 @@ a{
 .brand-logo-img{
     width: 160px;
     height: 50px; 
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.item{
+    width: 381px;
+}
+
+.item:hover{
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item-icon{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.item-subtitle{
+    padding-top: 25px;
+    padding-left: 29px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-txt{
+    padding-top: 17px;
+    padding-left: 29px;
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.item-link{
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 29px;
+    padding-bottom: 25px;
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
